@@ -1,0 +1,5 @@
+{
+  "name": "컨텍스트 엔지니어링 실습1",
+  "description": "An interactive web application to visually explore and understand core Large Language Model concepts like Chain of Thought (CoT) and Retrieval-Augmented Generation (RAG).",
+  "requestFramePermissions": []
+}

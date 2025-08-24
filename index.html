@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>컨텍스트 엔지니어링 실습 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react/": "https://esm.sh/react@^19.1.1/",
+          "react": "https://esm.sh/react@^19.1.1",
+          "@google/genai": "https://esm.sh/@google/genai@^1.15.0",
+          "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --color-primary: #E60F1D;
+        --color-bg: #EFE5DA;
+        --color-surface: #FFFFFF;
+        --color-surface-alt: #F1ECE7;
+        --color-neutral-100: #F5F4F2;
+        --color-accent-muted: #D0AEA9;
+
+        --text-primary: #222222;
+        --text-secondary: #6B6B6B;
+        --border-subtle: #E5E5E5;
+
+        --primary-hover: #CF0E1B;
+        --primary-active: #B90C18;
+        --focus-ring: rgba(230, 15, 29, 0.5);
+
+        --radius-card: 12px;
+        --radius-button: 10px;
+      }
+      body {
+        background-color: var(--color-bg);
+        color: var(--text-primary);
+        font-family: 'Pretendard', sans-serif;
+      }
+      @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
